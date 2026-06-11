@@ -1,0 +1,212 @@
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+}
+
+body{
+font-family:'Montserrat',sans-serif;
+background:#fdfbf8;
+color:#333;
+}
+
+.top-bar{
+background:#d4b06a;
+color:white;
+text-align:center;
+padding:10px;
+font-size:14px;
+}
+
+.navbar{
+display:flex;
+justify-content:space-between;
+align-items:center;
+padding:25px 8%;
+background:white;
+}
+
+.logo h1{
+font-family:'Cormorant Garamond',serif;
+font-size:48px;
+font-weight:600;
+}
+
+.logo p{
+letter-spacing:6px;
+font-size:12px;
+}
+
+.navbar ul{
+display:flex;
+gap:25px;
+list-style:none;
+}
+
+.navbar a{
+text-decoration:none;
+color:#444;
+}
+
+.hero{
+display:flex;
+align-items:center;
+justify-content:center;
+padding:80px 8%;
+gap:60px;
+}
+
+.hero-text{
+max-width:500px;
+}
+
+.hero h2{
+font-family:'Cormorant Garamond',serif;
+font-size:72px;
+color:#6f5230;
+margin-bottom:20px;
+}
+
+.hero p{
+line-height:1.8;
+margin-bottom:30px;
+}
+
+.btn{
+display:inline-block;
+padding:15px 35px;
+background:#c89a49;
+color:white;
+text-decoration:none;
+border-radius:5px;
+}
+
+.hero-image img{
+width:500px;
+border-radius:20px;
+}
+
+.benefits{
+display:grid;
+grid-template-columns:repeat(3,1fr);
+padding:50px 10%;
+background:white;
+text-align:center;
+}
+
+.categories,
+.products{
+padding:80px 10%;
+}
+
+.categories h2,
+.products h2{
+text-align:center;
+font-family:'Cormorant Garamond',serif;
+font-size:48px;
+margin-bottom:40px;
+}
+
+.grid{
+display:grid;
+grid-template-columns:repeat(3,1fr);
+gap:20px;
+}
+
+.category{
+background:#efe8df;
+padding:50px;
+text-align:center;
+border-radius:10px;
+cursor:pointer;
+}
+
+.product-grid{
+display:grid;
+grid-template-columns:repeat(4,1fr);
+gap:25px;
+}
+
+.product{
+background:white;
+padding:20px;
+border-radius:10px;
+box-shadow:0 0 15px rgba(0,0,0,.05);
+text-align:center;
+}
+
+.product img{
+width:100%;
+border-radius:10px;
+}
+
+.product h3{
+margin:15px 0;
+}
+
+.product button{
+width:100%;
+padding:12px;
+background:#c89a49;
+color:white;
+border:none;
+cursor:pointer;
+margin-top:15px;
+}
+
+.newsletter{
+padding:80px;
+background:#f2ece3;
+text-align:center;
+}
+
+.newsletter form{
+margin-top:20px;
+}
+
+.newsletter input{
+padding:15px;
+width:300px;
+}
+
+.newsletter button{
+padding:15px 25px;
+background:#c89a49;
+border:none;
+color:white;
+}
+
+footer{
+padding:50px;
+text-align:center;
+background:white;
+}
+
+@media(max-width:768px){
+
+.hero{
+flex-direction:column;
+}
+
+.hero-image img{
+width:100%;
+}
+
+.product-grid{
+grid-template-columns:1fr 1fr;
+}
+
+.grid{
+grid-template-columns:1fr 1fr;
+}
+
+.benefits{
+grid-template-columns:1fr;
+gap:30px;
+}
+
+.navbar ul{
+display:none;
+}
+
+}
