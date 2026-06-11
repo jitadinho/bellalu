@@ -108,34 +108,9 @@ margin-bottom:40px;
 }
 
 .grid{
-    display:grid;
-    grid-template-columns:repeat(3,1fr);
-    gap:15px;
-}
-
-.category{
-    background:#f7f2ec;
-    border-radius:0;
-    overflow:hidden;
-    padding:0;
-}
-
-.category img{
-    width:100%;
-    height:280px;
-    object-fit:cover;
-    display:block;
-}
-
-.category h3{
-    background:#f7f2ec;
-    text-align:center;
-    padding:18px 0;
-    margin:0;
-    font-family:'Cormorant Garamond', serif;
-    font-size:32px;
-    font-weight:400;
-    color:#4A3425;
+display:grid;
+grid-template-columns:repeat(3,1fr);
+gap:10px;
 }
 
 .logo img{
@@ -151,6 +126,13 @@ margin-bottom:40px;
     padding:20px 8%;
 }
 
+.category{
+background:#efe8df;
+padding:50px;
+text-align:center;
+border-radius:10px;
+cursor:pointer;
+}
 
 
 .product-grid{
