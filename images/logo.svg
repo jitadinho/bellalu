@@ -1,0 +1,56 @@
+<svg width="1200" height="500" viewBox="0 0 1200 500" xmlns="http://www.w3.org/2000/svg">
+    <defs>
+        <style>
+            .gold {
+                fill: #C9A15B;
+            }
+
+            .title {
+                fill: #4A3425;
+                font-family: "Cormorant Garamond", "Times New Roman", serif;
+                font-size: 96px;
+                font-weight: 500;
+                letter-spacing: 3px;
+            }
+
+            .subtitle {
+                fill: #8C6B3F;
+                font-family: "Montserrat", Arial, sans-serif;
+                font-size: 28px;
+                letter-spacing: 14px;
+                font-weight: 500;
+            }
+
+            .line {
+                stroke: #C9A15B;
+                stroke-width: 2;
+            }
+        </style>
+    </defs>
+
+    <!-- Lua -->
+    <g transform="translate(600,120)">
+        <path class="gold"
+              d="M 0 -65
+                 A 65 65 0 1 0 0 65
+                 A 45 45 0 1 1 0 -65 Z"/>
+                 
+        <circle class="gold" cx="48" cy="-10" r="6"/>
+        <circle class="gold" cx="70" cy="12" r="4"/>
+        <circle class="gold" cx="58" cy="28" r="3"/>
+    </g>
+
+    <!-- Nome -->
+    <text x="600" y="260" text-anchor="middle" class="title">
+        BELLA LUNA
+    </text>
+
+    <!-- Linhas decorativas -->
+    <line x1="280" y1="315" x2="500" y2="315" class="line"/>
+    <line x1="700" y1="315" x2="920" y2="315" class="line"/>
+
+    <!-- Subtítulo -->
+    <text x="600" y="330" text-anchor="middle" class="subtitle">
+        SEMIJOIAS
+    </text>
+</svg>
