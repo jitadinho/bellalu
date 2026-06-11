@@ -110,7 +110,7 @@ margin-bottom:40px;
 .grid{
 display:grid;
 grid-template-columns:repeat(3,1fr);
-gap:20px;
+gap:10px;
 }
 
 .logo img{
@@ -133,13 +133,7 @@ text-align:center;
 border-radius:10px;
 cursor:pointer;
 }
-.category img{
-background:#efe8df;
-padding:50px;
-text-align:center;
-border-radius:10px;
-cursor:pointer;
-}
+
 
 .product-grid{
 display:grid;
