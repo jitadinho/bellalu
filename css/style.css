@@ -113,6 +113,19 @@ grid-template-columns:repeat(3,1fr);
 gap:20px;
 }
 
+.logo img{
+    height:120px;
+    width:auto;
+    display:block;
+}
+
+.navbar{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:20px 8%;
+}
+
 .category{
 background:#efe8df;
 padding:50px;
